@@ -2,25 +2,26 @@
 header {
     width: 100%;
     background-color: black;
-    height: 40px;
+    height: 20px;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    font-size: 12px;
 }
 .container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #logo {
     color: white;
     float: left;
-    margin-left: 40px;
 }
-#middle-color {
+.middle-color {
     color: #33FFD2;
 }
 #navigation {
     float: right;
-    margin-right: 40px;
 }
 ul>li {
     display: inline-block;
@@ -38,5 +39,23 @@ ul>li {
     background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
     width: 100%;
-    height: 650px;
+    height: 450px;
+}
+#black-chair-box {
+    border: 1px solid red;
+    float: left;
+    display: inline-block;
+    margin-left: -80px;
+}
+#text-first-section {
+    border: 1px solid green;
+    text-align: center;
+    padding-top: 70px;
+}
+#button-more {
+    height: 50px;
+    width: 200px;
+    background-color: #33FFD2;
+    color: white;
+    border-radius: 10px;
 }
