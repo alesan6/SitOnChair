@@ -11,7 +11,7 @@ header {
     color: white;
     padding-bottom: 15px;
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 .container {
@@ -92,6 +92,7 @@ ul>li {
     background-color: white;
     height: 250px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 #left-box {
     background-image: url("../images/box1_img.jpg");
@@ -120,3 +121,34 @@ ul>li {
 }
 
 /*SECTION _ 3*/
+#third-section {
+    background-color: #F8F8F8;
+    height: 600px;
+    /*border: 1px solid red;*/
+    margin-top: 25px;
+
+}
+.header-section {
+    width: 275px;
+    border-bottom: 5px solid #24BA9F;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+}
+.price-list-box {
+    position: relative;
+    width: 290px;
+    height: 400px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    display: inline-block;
+}
+#left-price {
+    float:left;
+    margin-right: 25px;
+}
+#right-price {
+    float: right;
+}
