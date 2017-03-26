@@ -141,8 +141,8 @@ ul>li {
     position: relative;
     width: 290px;
     height: 400px;
-    border: 1px solid grey;
-    margin-top: 20px;
+    border: 2px solid #E2E2E2;
+    margin-top: 40px;
     display: inline-block;
 }
 #left-price {
@@ -151,4 +151,57 @@ ul>li {
 }
 #right-price {
     float: right;
+}
+.button-join {
+    background-color: #24BA9F;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding-top: 2px;
+    height: 27px;
+    width: 90px;
+}
+.upper-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 12px solid white;
+    position: absolute;
+    box-shadow: 0 0 0 2px #E2E2E2;
+    background-color: #C4C1BA;
+    margin-left: 40%;
+    right: 115px;
+    bottom: 380px;
+}
+.title-plan {
+    text-align: center;
+    color: #24BA9F;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.price-circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #E2E2E2;
+    background-color: white;
+    color: #C4C1BA;
+    border-radius: 50%;
+    right: 88px;
+}
+.price-number {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: -100px;
+}
+.upper-price {
+    vertical-align: super;
+    font-size: 10px;
+}
+.price-text {
+    font-size: 12px;
+    text-align: center;
+    vertical-align: top;
 }
