@@ -64,7 +64,7 @@ ul>li {
 
 }
 #head1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 500;
 }
 #text1 {
@@ -120,22 +120,22 @@ ul>li {
     float: right;
 }
 
-/*SECTION _ 3*/
+/*SECTION - 3*/
 #third-section {
     background-color: #F8F8F8;
-    height: 600px;
+    height: 570px;
     /*border: 1px solid red;*/
     margin-top: 25px;
 
 }
 .header-section {
     width: 275px;
-    border-bottom: 5px solid #24BA9F;
-    padding-top: 15px;
+    border-bottom: 6px solid #24BA9F;
+    padding-top: 30px;
     padding-bottom: 5px;
     color: grey;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
 }
 .price-list-box {
     position: relative;
@@ -144,6 +144,7 @@ ul>li {
     border: 2px solid #E2E2E2;
     margin-top: 40px;
     display: inline-block;
+    background-color: rgb(251,251,251);
 }
 #left-price {
     float:left;
@@ -159,7 +160,9 @@ ul>li {
     border: 0;
     padding-top: 2px;
     height: 27px;
-    width: 90px;
+    width: 95px;
+    margin: 100px 0 0 99px;
+    position: absolute;
 }
 .upper-circle {
     width: 45px;
@@ -204,4 +207,100 @@ ul>li {
     font-size: 12px;
     text-align: center;
     vertical-align: top;
+}
+.content-plan {
+    /*border: 1px solid red;*/
+    margin-top: 130px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+.content1 {
+    background-color: #C4C1BA;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+.content2 {
+    background-color: #e7dede;
+    margin: 0;
+    padding: 0;
+}
+.button-join-middle {
+    background-color: #24BA9F;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding-top: 2px;
+    height: 27px;
+    width: 95px;
+    margin: 65px 0 0 99px;
+    position: absolute;
+}
+.button-join-right {
+    background-color: #24BA9F;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding-top: 2px;
+    height: 27px;
+    width: 95px;
+    margin: 32px 0 0 99px;
+    position: absolute;
+}
+/*SECTION - 4*/
+#fourt-section {
+    height: 400px;
+}
+#form-box-left {
+    width: 550px;
+    /*border: 1px solid red;*/
+    float:left;
+}
+.form {
+    width: 500px;
+    margin-bottom: 20px;
+    height: 50px;
+    padding-left: 5px;
+    font-size: 23px;
+    border: 1px solid #24BA9F;
+}
+#message-box {
+    height: 140px;
+    padding-bottom: 90px;
+}
+#form-box-right {
+    width: 350px;
+    height: 302px;
+    /*border: 1px solid blue;*/
+    float: right;
+    position:relative;
+}
+#red-chair {
+    width: 230px;
+    height: 180px;
+    left: 55px;
+    bottom: 165px;
+    position: absolute;
+
+}
+.button-send {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    height: 60px;
+    width: 280px;
+    background-color: #24BA9F;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding-top: 2px;
+    bottom: 17px;
+    left: 35px;
+}
+#checkbox {
+    font-size: 18px;
+    position: absolute;
+    bottom: 105px;
+    left: 35px;
 }
