@@ -22,33 +22,43 @@
 
     <section id="first-section">
         <div class="container">
+            <div class="arrow-left">
+               &lt
+           </div>
             <div id="black-chair-box">
                 <img src="images/black_chair.png" alt="black_chair" title="Black Chair" id="black-chair">
             </div>
             <div id="text-first-section">
                 <p id="head1">SIT <span class="middle-color">ON</span> OUR <span class="middle-color">CHAIR</span></p>
-                <p id="text1">Lorem ipsum dolor sit amet, consectetur adipisicing<br>elit, sed do eiusmod tempor incididunt ut laboreconsectetur<br>adipisicing elit, sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua. Ut enim ad minim.</p>
-                <button type="button" name="more" value="ZOBACZ WIĘCEJ" id="button-more">ZOBACZ WIĘCEJ</button>
+                <p id="text1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing<br>elit, sed do eiusmod tempor incididunt ut laboreconsectetur<br>adipisicing elit, sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua. Ut enim ad minim.
+                </p>
+                <button type="button" name="more" value="ZOBACZ WIĘCEJ" class="button-more">ZOBACZ WIĘCEJ</button>
             </div>
+            <div class="arrow-right">
+               &gt
+           </div>
         </div>
     </section>
 
     <section id="second-section">
         <div class="container">
             <div id="left-box">
-                <div class="example-box">
-                </div>
+                <div class="example-background"></div>
+                <div class="example-box">Chair CLAIR</div>
+
             </div>
             <div id="middle-box">
-                <div class="example-box">
+                <div class="example-background"></div>
+                <div class="example-box">Chair MARGARITA
                 </div>
             </div>
             <div id="right-box">
-                <p id="head2">
+                <p id="head2">Finds all inputs
                 </p>
-                <p id="text2">
+                <p id="text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore e
                 </p>
-                <p id="text3">
+                <p id="text3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
             </div>
         </div>
@@ -132,7 +142,10 @@
             <div id="form-box-right">
                 <img src="images/red_chair.png" alt="red_chair" title="Red Chair" id="red-chair">
                 <div id="checkbox">
-                    <input type="checkbox" name="agree" value="agree" checked > Zgadzam się na przetwarzanie<br>danych osobowych<br>
+                    <input type="checkbox" name="agree" value="agree" checked class="css-checkbox">
+                    <label for="agree" class="css-label">Zgadzam   się na przetwarzanie<br/>danych osobowych
+                    <div class="border-check"> </div>
+                    </label>
                 </div>
                 <button type="button" name="send" value="WYŚLIJ" class="button-send">WYŚLIJ</button>
             </div>
@@ -140,6 +153,24 @@
     </section>
 
     <footer>
+        <div class="container">
+            <p>Copyright 2014 | All Rights Reserved - Sit on Chair</p>
+            <div class="links">
+                <a href="https://www.flickr.com/" target="_blank" title="flickr">
+                    <div class="flickr"></div>
+                </a>
+                <a href="https://vimeo.com" target="_blank" title="vimeo">
+                    <div class="vimeo"></div>
+                </a>
+                <a href="https://pl.pinterest.com/" target="_blank" title="pinterest">
+                    <div class="pinterest"></div>
+                </a>
+                <a href="https://twitter.com" target="_blank" title="twitter">
+                    <div class="twitter"></div>
+                </a>
+                <div class="logo">SIT <span>ON</span> CHAIR</div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
