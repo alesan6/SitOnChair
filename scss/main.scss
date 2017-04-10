@@ -12,7 +12,6 @@ header, section, footer {
     margin: 0 auto;
     padding-left: 70px;
     padding-right: 70px;
-    border: 1px solid red;
     display: flex;
 }
 .middle-color {
@@ -53,13 +52,11 @@ header {
         #logo {
             color: white;
             word-spacing: 2px;
-
         }
         #navigation > li{
             display: inline-block;
             margin-left: 25px;
             font-weight: bold;
-
         }
     }
 }
@@ -100,14 +97,12 @@ header {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                border: 1px dashed green;
                 padding-right: 30px;
                 padding-bottom: 60px;
 
                 #head1 {
                     font-size: 40px;
                     font-weight: 600;
-                    border: 1px solid pink;
                     margin-bottom: 10px;
                 }
                 #text1 {
@@ -115,7 +110,6 @@ header {
                     font-weight: 600;
                     color: grey;
                     text-align: center;
-                    border: 1px solid pink;
                 }
                 .button-more {
                     font-size: 20px;
@@ -208,7 +202,6 @@ header {
                 font-weight: 500;
 
             }
-
         }
     }
 }
@@ -320,6 +313,37 @@ header {
     }
 }
 
+#standard-price {
+    border: 2.5px solid #24BA9F;
+    background-color: #24BA9F;
+    .upper-circle {
+        border: 14px solid #24BA9F;
+        box-shadow: 0 0 0 2.5px #24BA9F;
+        background-color: #ededed;
+    }
+    .title-plan {
+        color: white;
+    }
+    .price-circle {
+        border: 2.5px solid #24BA9F;
+        background-color: #ededed;
+        color: #24BA9F;
+        }
+    .content-plan {
+        .content1 {
+            background-color: white;
+            color: grey;
+        }
+        .content2 {
+            background-color: #ededed;
+        }
+    }
+    .button-join {
+        background-color: white;
+        color: #24BA9F;
+    }
+}
+
 /*SECTION - 4*/
 
 #fourth-section {
@@ -391,3 +415,56 @@ header {
 }
 
 /*FOOTER*/
+
+footer {
+    color: #bfbfbf;
+
+    .container {
+        p {
+            font-weight: bold;
+        }
+        .links {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 500px;
+            padding-right: 60px;
+
+            .flickr {
+                background-image: url("../images/flickr.png");
+                height: 35px;
+                width: 35px;
+                margin-right: 5px;
+            }
+            .vimeo {
+                background-image: url("../images/vimeo.png");
+                height: 35px;
+                width: 35px;
+                margin-right: 5px;
+            }
+            .pinterest {
+                background-image: url("../images/pinterest.png");
+                height: 35px;
+                width: 35px;
+                margin-right: 5px;
+            }
+            .twitter {
+                background-image: url("../images/twitter.png");
+                height: 35px;
+                width: 35px;
+                margin-right: 5px;
+            }
+        }
+        .logo {
+            color: #747474;
+            margin-top: 12px;
+            margin-left: 5px;
+            font-size: 18px;
+            font-weight: 600;
+
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+}
