@@ -30,6 +30,9 @@ header, section, footer {
 .invisibility {
     visibility: hidden;
 }
+.visibility {
+    visibility: visible;
+}
 
 /*Buttony*/
 
@@ -61,6 +64,7 @@ header {
             display: inline-block;
             margin-left: 25px;
             font-weight: bold;
+            cursor: pointer;
         }
         &:first-child {
             position: relative;
@@ -126,22 +130,40 @@ header {
             font-size: 70px;
             color: #24bd9e;
             font-family: 'ralewaylight', sans-serif;
+            cursor: pointer;
+        }
+        .arrow-left:hover {
+            opacity: 0.7;
         }
         .middle-elements {
             display: flex;
             align-items: center;
 
-            #black-chair-box {
-                #black-chair {
-                    transform: scale(1.2);
+            ul.gallery {
+                height: 340px;
+                list-style: none;
+                position: relative;
+                width: 500px;
+
+                li {
+                    visibility: hidden;
+                    position: absolute;
+
+                    img {
+                        transform: scale(1.2);
+                    }
+                }
+                li.visibility {
+                    visibility: visible;
                 }
             }
             #text-first-section {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding-right: 30px;
+                // padding-right: 30px;
                 padding-bottom: 60px;
+                width: 440px;
 
                 #head1 {
                     font-size: 40px;
@@ -163,6 +185,7 @@ header {
                     border-radius: 10px;
                     border: 0;
                     margin-top: 20px;
+                    cursor: pointer;
                 }
             }
         }
@@ -173,6 +196,10 @@ header {
             font-size: 70px;
             color: #24bd9e;
             font-family: 'ralewaylight', sans-serif;
+            cursor: pointer;
+        }
+        .arrow-right:hover {
+            opacity: 0.7;
         }
     }
 }
@@ -352,6 +379,7 @@ header {
             width: 100px;
             position: absolute;
             bottom: 15px;
+            cursor: pointer;
         }
     }
 }
@@ -384,6 +412,7 @@ header {
     .button-join {
         background-color: white;
         color: #24BA9F;
+        cursor: pointer;
     }
 }
 
@@ -440,6 +469,7 @@ header {
         color: white;
         border-radius: 10px;
         border: 0;
+        cursor: pointer;
     }
     #checkbox {
         font-size: 18px;

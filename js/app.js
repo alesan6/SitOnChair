@@ -17,7 +17,52 @@ document.addEventListener("DOMContentLoaded", function(){
 
     });
 
-// hidding opacity frame in section 2.
+// hidding opacity frames in section 2.
 
+var boxes = document.getElementsByClassName("image-box");
+
+for (var i=0; i<boxes.length;i++){
+
+    boxes[i].addEventListener("mouseover", function(){
+        var opacityFrames = document.querySelector(".image-box").children;
+        this.children[0].classList.toggle('invisibility');
+    })
+
+    boxes[i].addEventListener("mouseout", function(){
+        var opacityFrames = document.querySelector(".image-box").children;
+        this.children[0].classList.toggle('invisibility');
+    })
+}
+
+// slider
+
+var leftArrow = document.querySelector(".arrow-left");
+var rightArrow = document.querySelector(".arrow-right");
+var galleryList = document.querySelectorAll("ul.gallery li");
+
+var indexOfPicture = 0;
+
+galleryList[indexOfPicture].classList.toggle('visibility');
+
+leftArrow.addEventListener("click", function (){
+
+    galleryList[indexOfPicture].classList.toggle('visibility');
+    indexOfPicture--;
+    if (indexOfPicture < 0) {
+        indexOfPicture = galleryList.length-1;
+    }
+    galleryList[indexOfPicture].classList.toggle('visibility');
+});
+
+
+rightArrow.addEventListener("click", function (){
+
+    galleryList[indexOfPicture].classList.toggle('visibility');
+    if (indexOfPicture === galleryList.length-1) {
+        indexOfPicture = -1;
+    }
+    indexOfPicture++;
+    galleryList[indexOfPicture].classList.toggle('visibility');
+});
 
 });
