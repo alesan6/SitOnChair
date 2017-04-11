@@ -65,4 +65,44 @@ rightArrow.addEventListener("click", function (){
     galleryList[indexOfPicture].classList.toggle('visibility');
 });
 
+// application dropdown lists
+
+var arrowBtn1 = document.getElementById("arrow1");
+var typeList1 = document.getElementById("panel1");
+var clickCounter1 = 0;
+var arrowBtn2 = document.getElementById("arrow2");
+var typeList2 = document.getElementById("panel2");
+var clickCounter2 = 0;
+var arrowBtn3 = document.getElementById("arrow3");
+var typeList3 = document.getElementById("panel3");
+var clickCounter3 = 0;
+
+arrowBtn1.addEventListener("click", function (){
+    clickCounter1 += 1;
+
+    if (clickCounter1 %2 !==0) {
+        typeList1.style.visibility="visible";
+    } else {
+        typeList1.style.visibility="hidden";
+    }
+});
+arrowBtn2.addEventListener("click", function (){
+    clickCounter2 += 1;
+
+    if (clickCounter2 %2 !==0) {
+        typeList2.style.visibility="visible";
+    } else {
+        typeList2.style.visibility="hidden";
+    }
+});
+arrowBtn3.addEventListener("click", function (){
+    clickCounter3 += 1;
+
+    if (clickCounter3 %2 !==0) {
+        typeList3.style.visibility="visible";
+    } else {
+        typeList3.style.visibility="hidden";
+    }
+});
+
 });

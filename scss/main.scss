@@ -440,7 +440,7 @@ header {
 
 .inline {
   display:inline-block;
-  width:300px;
+  // width:300px;
   // padding:14px;
   vertical-align: top;
 }
@@ -455,12 +455,12 @@ header {
   height:38px;
   background-color: white;
   margin-top:22px;
-  padding: 8px 12px;
+  padding: 6px 12px;
   position: relative;
 }
 
 .list_label {
-  font-size: 30px;
+  font-size: 24px;
   color: #e2e2e2;
   font-family: 'ralewaylight', Arial, Tahoma, sans-serif;
 }
@@ -541,10 +541,10 @@ header {
 
 .summary_panel {
   background-color: white;
-  width:100%;
+  width:350px;
   height:195px;
   padding:10px;
-  margin-top: 50px;
+  margin-top: 35px;
 
 }
 
@@ -627,7 +627,7 @@ header {
   display:block;
   position: absolute;
   right: 14px;
-  top: 20px;
+  top: 10px;
   cursor: pointer;
 }
 
@@ -643,12 +643,16 @@ header {
   z-index: 2;
   position: absolute;
   top: 54px;
-  display:none;
+  visibility: hidden;
 }
 .list_panel li {
   margin-top:10px;
   cursor: pointer;
   color: #585858;
+}
+.list_panel li:hover {
+    background-color: #24BA9F;
+    color: white;
 }
 
 .title {
