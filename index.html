@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>SitOnChair</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -14,7 +15,15 @@
                 SIT <span class="middle-color">ON</span> CHAIR
             </p>
             <ul id="navigation">
-                <li>O FIRMIE</li>
+                <li id="subcontent">O FIRMIE
+                        <ul class="submenu">
+                            <div id="dropdown"></div>
+                            <li>Aktualności</li>
+                            <li>Nasz team</li>
+                            <li>Historia</li>
+                        </ul>
+
+                </li>
                 <li>GALERIA</li>
                 <li>KONTAKT</li>
             </ul>
@@ -46,12 +55,12 @@
 
     <section id="second-section">
         <div class="container">
-            <div id="left-box">
+            <div id="left-box" class="image-box">
                 <div class="example-background"></div>
                 <div class="example-box">Chair CLAIR</div>
 
             </div>
-            <div id="middle-box">
+            <div id="middle-box" class="image-box">
                 <div class="example-background"></div>
                 <div class="example-box">Chair MARGARITA
                 </div>
