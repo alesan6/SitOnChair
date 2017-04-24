@@ -548,7 +548,7 @@ header {
 
 }
 
-.application .green_button {
+.application .green-button {
   background-color: #27c7ab;
   color: white;
   text-align:center;
@@ -562,7 +562,16 @@ header {
   margin-left: 29px;
   border-radius: 8px;
   text-decoration: none;
+
 }
+
+.green-button:hover {
+    opacity: 0.7;
+}
+.green-button:active {
+    filter: brightness(200%);
+}
+
 .panel_left {
   display: inline-block;
   width: 185px;
@@ -586,20 +595,21 @@ header {
 .panel_left h4 , .panel_right h4{
   color: #24baa0;
   font-size: 23px;
+  margin-top: 0;
 }
 
-.panel_left span{
-  margin-top:10px;
-  font-size: 22px;
+.panel_left span {
+  font-size: 18px;
   color: #5b5a5a;
   display: block;
+  margin-top: 10px;
 }
 
 .panel_right span {
   display: block;
-  font-size: 22px;
+  font-size: 18px;
   color: #24baa0;
-  margin-top:10px;
+  margin-top: 10px;
 }
 .sum_label{
   display: inline-block;
@@ -656,7 +666,7 @@ header {
 }
 
 .title {
-  height: 30px;
+  height: 10px;
 }
 
 /*SECTION - 4*/

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>SitOnChair</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/app.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -166,26 +167,26 @@
                         <span class="list_label">Wybierz rodzaj</span>
                         <span class="list_arrow" id="arrow1"></span>
                         <ul class="list_panel" id="panel1">
-                            <li>Clair</li>
-                            <li>Margarita</li>
-                            <li>Selena</li>
+                            <li data-price='450'>Clair</li>
+                            <li data-price='370'>Margarita</li>
+                            <li data-price='340'>Selena</li>
                         </ul>
                     </div>
                     <div class="drop_down_list">
                         <span class="list_label">Wybierz kolor</span>
                         <span class="list_arrow" id="arrow2"></span>
                         <ul class="list_panel" id="panel2">
-                            <li>Czerwony</li>
-                            <li>Czarny</li>
-                            <li>Pomarańczowy</li>
+                            <li data-color="-">Czerwony</li>
+                            <li data-color="20">Czarny</li>
+                            <li data-color="-">Pomarańczowy</li>
                         </ul>
                     </div>
                     <div class="drop_down_list">
                         <span class="list_label">Wybierz materiał</span>
                         <span class="list_arrow" id="arrow3"></span>
                         <ul class="list_panel" id="panel3">
-                            <li>Tkanina</li>
-                            <li>Skóra</li>
+                            <li data-pattern="-">Tkanina</li>
+                            <li data-pattern="120">Skóra</li>
                         </ul>
                     </div>
                     <div class="checkbox check-box">
@@ -215,7 +216,7 @@
                         <span class="transport"></span>
                     </div>
                     <div class="panel_right">
-                        <h4 class="title value"></h4>
+                        <h4 class="title valueRight"></h4>
                         <span class="color value"></span>
                         <span class="pattern value"></span>
                         <span class="transport value"></span>
@@ -223,7 +224,7 @@
                     <div class="sum_label">SUMA</div>
                     <div class="sum"><strong></strong></div>
                 </div>
-                <a href="" class="green_button">Zamawiam</a>
+                <a href="" class="green-button">Zamawiam</a>
             </section>
         </div>
     </section>
