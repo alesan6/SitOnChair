@@ -1,2 +1,2 @@
 # SitOnChair
-workshop
+workshop - done with Sass, JS.
